@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+}
+
+.scissors {
+    background: rgb(236, 158, 14);
+    background: linear-gradient(180deg, rgba(236, 158, 14, 1) 90%, rgba(236, 169, 34, 1) 100%);
+}
+
+.spock {
+    background: hsl(189, 59%, 53%);
+    background: linear-gradient(180deg, hsl(189, 59%, 53%) 0%, hsl(189, 58%, 57%) 100%);
+}
+
+.paper {
+    background: hsl(230, 89%, 62%);
+    background: linear-gradient(180deg, hsl(230, 89%, 62%) 0%, hsl(230, 89%, 65%) 100%);
+}
+
+.lizard {
+    background: hsl(261, 73%, 60%);
+    background: linear-gradient(180deg, hsl(261, 73%, 60%) 0%, hsl(261, 72%, 63%) 100%);
+}
+
+.rock {
+    background: hsl(349, 71%, 52%);
+    background: linear-gradient(180deg, hsl(349, 70%, 56%) 0%, hsl(349, 71%, 52%) 100%);
+}
